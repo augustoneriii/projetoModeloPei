@@ -1,0 +1,42 @@
+# Ignore arquivos binários e compilados
+[Bb]in/
+[Oo]bj/
+
+# Ignore pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore arquivos de lock do NuGet
+project.lock.json
+project.fragment.lock.json
+
+# Ignore diretórios de publicação
+publish/
+out/
+
+# Arquivos temporários do Visual Studio
+.vscode/
+.vs/
+.vscode/*
+.vs/*
+*.user
+*.suo
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração temporários
+appsettings.Development.json
+appsettings.Local.json
+
+# Cache do Rider/JetBrains
+.idea/
+.idea/*
+
+# Ignore arquivo de pacotes globais e SDK
+global.json
+
+# Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
